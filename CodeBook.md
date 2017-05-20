@@ -1,10 +1,10 @@
 # Code Book for Tidy Data Assignment
 Use the links to navigate the code book. For those looking to jump right to the final data steps, follow the [Final Data Set](#final-data-set) link.
 
-[Raw Data](#raw-data)
-[Data Subset](#data-subset)
-[Data Tidying](#data-tidying)
-[Final Data Set](#final-data-set)
+[Raw Data](#raw-data)<br>
+[Data Subset](#data-subset)<br>
+[Data Tidying](#data-tidying)<br>
+[Final Data Set](#final-data-set)<br>
 
 ## Raw Data
 The <b>Human Activity Recognition Using Smartphones Data Set</b> was used as raw data for this tidy data creation assignment. See the README.md file for additional information about this data and a link to obtain the raw data.
