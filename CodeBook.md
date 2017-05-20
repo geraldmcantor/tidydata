@@ -1,7 +1,13 @@
 # Code Book for Tidy Data Assignment
+Use the links to navigate the code book:
+
+[Raw Data][1]
+[Data Subset][2]
+[Data Tidying][3]
+[Final Data Set][4]
 
 ## Raw Data
-
+[1]
 The <b>Human Activity Recognition Using Smartphones Data Set</b> was used as raw data for this tidy data creation assignment. See the README.md file for additional information about this data and a link to obtain the raw data.
 
 The raw data comes split into a training set and a test set. The initial steps of the tidying process was to merge the training data and the test data into 1 full data set. This step involved merging the subject, activities and measurements training data, which created a 7352x563 data frame. The same process was done for the subject, activities and measurements test data, which created a 2947x563 data frame. The full data was created by merging these two data frames, which created a 10299x563 data frame.
@@ -571,6 +577,7 @@ angle(Y,gravityMean)<br>
 angle(Z,gravityMean)<br>
 
 ## Data Subset
+[2]
 The full raw data set was subsetting by extracting the subject_id, activity and all \*-std() and \*-mean() data. The created a 10299x20 data frame.
 
 The following columns are associated with this data subset:
@@ -597,6 +604,7 @@ fBodyBodyGyroJerkMag-mean()<br>
 fBodyBodyGyroJerkMag-std()<br>
 
 ## Data Tidying
+[3]
 A few steps were done to create a tidy data set from the data subset that was created in the previous step.
 
 ### Descriptive Activity Names
@@ -645,6 +653,7 @@ The subsetted data was further made tidy by computing the mean of all \*-std() a
 The data that resulted from the previous step was further tidied by updating the column names to reflect that these values are now averages. The following section details these new column names.
 
 ## Final Data Set
+[4]
 The following details the final data set columns names and their description:
 
 |Variable Name|Description|
