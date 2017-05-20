@@ -648,25 +648,24 @@ The data that resulted from the previous step was further tidied by updating the
 The following details the final data set columns names and their description:
 
 |Variable Name|Description|
-|-------------|:---------:|
+|-------------|-----------|
 |subject_id|The identifier of the subject associated with the observation|
-|activity|The activity associated with the observation. Possible values are Walk
-ing, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying|
-|Average of TimeBodyAccelerometerMagnitudeMean Values|Average of all |
-|Average of TimeBodyAccelerometerMagnitudeSTD Values|Average of all |
-|Average of TimeGravityAccelerometerMagnitudeMean Values|Average of all |
-|Average of TimeGravityAccelerometerMagnitudeSTD Values|Average of all |
-|Average of TimeBodyAccelerometerJerkMagnitudeMean Values|Average of all |
-|Average of TimeBodyAccelerometerJerkMagnitudeSTD Values|Average of all |
-|Average of TimeBodyGyroscopeMagnitudeMean Values|Average of all |
-|Average of TimeBodyGyroscopeMagnitudeSTD Values|Average of all |
-|Average of TimeBodyGyroscopeJerkMagnitudeMean Values|Average of all |
-|Average of TimeBodyGyroscopeJerkMagnitudeSTD Values|Average of all |
-|Average of FrequencyBodyAccelerometerMagnitudeMean Values|Average of all |
-|Average of FrequencyBodyAccelerometerMagnitudeSTD Values|Average of all |
-|Average of FrequencyBodyAccelerometerJerkMagnitudeMean Values|Average of all |
-|Average of FrequencyBodyAccelerometerJerkMagnitudeSTD Values|Average of all |
-|Average of FrequencyBodyGyroscopeMagnitudeMean Values|Average of all |
-|Average of FrequencyBodyGyroscopeMagnitudeSTD Values |Average of all |
-|Average of FrequencyBodyGyroscopeJerkMagnitudeMean Values|Average of all |
-|Average of FrequencyBodyGyroscopeJerkMagnitudeSTD Values|Average of all |
+|activity|The activity associated with the observation. Possible values are Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying|
+|Average of TimeBodyAccelerometerMagnitudeMean Values|Average of all TimeBodyAccelerometerMagnitudeMean associated with the subject and activity|
+|Average of TimeBodyAccelerometerMagnitudeSTD Values|Average of all TimeBodyAccelerometerMagnitudeSTD associated with the subject and activity|
+|Average of TimeGravityAccelerometerMagnitudeMean Values|Average of all TimeGravityAccelerometerMagnitudeMean associated with the subject and activity|
+|Average of TimeGravityAccelerometerMagnitudeSTD Values|Average of all TimeGravityAccelerometerMagnitudeSTD associated with the subject and activity|
+|Average of TimeBodyAccelerometerJerkMagnitudeMean Values|Average of all TimeBodyAccelerometerJerkMagnitudeMean associated with the subject and activity|
+|Average of TimeBodyAccelerometerJerkMagnitudeSTD Values|Average of all TimeBodyAccelerometerJerkMagnitudeSTD associated with the subject and activity|
+|Average of TimeBodyGyroscopeMagnitudeMean Values|Average of all TimeBodyGyroscopeMagnitudeMean associated with the subject and activity|
+|Average of TimeBodyGyroscopeMagnitudeSTD Values|Average of all TimeBodyGyroscopeMagnitudeSTD associated with the subject and activity|
+|Average of TimeBodyGyroscopeJerkMagnitudeMean Values|Average of all TimeBodyGyroscopeJerkMagnitudeMean associated with the subject and activity|
+|Average of TimeBodyGyroscopeJerkMagnitudeSTD Values|Average of all TimeBodyGyroscopeJerkMagnitudeSTD associated with the subject and activity|
+|Average of FrequencyBodyAccelerometerMagnitudeMean Values|Average of all FrequencyBodyAccelerometerMagnitudeMean associated with the subject and activity|
+|Average of FrequencyBodyAccelerometerMagnitudeSTD Values|Average of all FrequencyBodyAccelerometerMagnitudeSTD associated with the subject and activity|
+|Average of FrequencyBodyAccelerometerJerkMagnitudeMean Values|Average of all FrequencyBodyAccelerometerJerkMagnitudeMean associated with the subject and activity|
+|Average of FrequencyBodyAccelerometerJerkMagnitudeSTD Values|Average of all FrequencyBodyAccelerometerJerkMagnitudeSTD associated with the subject and activity|
+|Average of FrequencyBodyGyroscopeMagnitudeMean Values|Average of all FrequencyBodyGyroscopeMagnitudeMean associated with the subject and activity|
+|Average of FrequencyBodyGyroscopeMagnitudeSTD Values |Average of all FrequencyBodyGyroscopeMagnitudeSTD associated with the subject and activity|
+|Average of FrequencyBodyGyroscopeJerkMagnitudeMean Values|Average of all FrequencyBodyGyroscopeJerkMagnitudeMean associated with the subject and activity|
+|Average of FrequencyBodyGyroscopeJerkMagnitudeSTD Values|Average of all FrequencyBodyGyroscopeJerkMagnitudeSTD associated with the subject and activity|
