@@ -574,6 +574,7 @@ angle(Z,gravityMean)<br>
 The full raw data set was subsetting by extracting the subject_id, activity and all \*-std() and \*-mean() data. The created a 10299x20 data frame.
 
 The following columns are associated with this data subset:
+
 subject_id<br>
 activity<br>
 tBodyAccMag-mean()<br>
@@ -595,3 +596,53 @@ fBodyBodyGyroMag-std()<br>
 fBodyBodyGyroJerkMag-mean()<br>
 fBodyBodyGyroJerkMag-std()<br>
 
+## Data Tidying
+A few steps were done to create a tidy data set from the data subset that was created in the previous step.
+
+### Descriptive Activity Names
+The activity values were changed from numeric values to string values. The following shows the mapping used to make these changes:
+
+1 changed to WALKING
+
+2 changed to WALKING_UPSTAIRS
+
+3 changed to WALKING_DOWNSTAIRS
+
+4 changed to SITTING
+
+5 changed to STANDING
+
+6 changed to LAYING
+
+### Descriptive Column Names
+The following table shows the original column name and the new, descriptive column name:
+
+|Original Column Name|New Column Name|
+|--------------------|:-------------:|
+|tBodyAccMag-mean()|TimeBodyAccelerometerMagnitudeMean|
+|tBodyAccMag-std()|TimeBodyAccelerometerMagnitudeSTD|
+|tGravityAccMag-mean()|TimeGravityAccelerometerMagnitudeMean|
+|tGravityAccMag-std()|TimeGravityAccelerometerMagnitudeSTD|
+|tBodyAccJerkMag-mean()|TimeBodyAccelerometerJerkMagnitudeMean|
+|tBodyAccJerkMag-std()|TimeBodyAccelerometerJerkMagnitudeSTD|
+|tBodyGyroMag-mean()|TimeBodyGyroscopeMagnitudeMean|
+|tBodyGyroMag-std()|TimeBodyGyroscopeMagnitudeSTD|
+|tBodyGyroJerkMag-mean()|TimeBodyGyroscopeJerkMagnitudeMean|
+|tBodyGyroJerkMag-std()|TimeBodyGyroscopeJerkMagnitudeSTD|
+|fBodyAccMag-mean()|FrequencyBodyAccelerometerMagnitudeMean|
+|fBodyAccMag-std()|FrequencyBodyAccelerometerMagnitudeSTD|
+|fBodyBodyAccJerkMag-mean()|FrequencyBodyAccelerometerJerkMagnitudeMean|
+|fBodyBodyAccJerkMag-std()|FrequencyBodyAccelerometerJerkMagnitudeSTD|
+|fBodyBodyGyroMag-mean()|FrequencyBodyGyroscopeMagnitudeMean|
+|fBodyBodyGyroMag-std()|FrequencyBodyGyroscopeMagnitudeSTD|
+|fBodyBodyGyroJerkMag-mean()|FrequencyBodyGyroscopeJerkMagnitudeMean|
+|fBodyBodyGyroJerkMag-std()|FrequencyBodyGyroscopeJerkMagnitudeSTD|
+
+### Computing mean values
+The subsetted data was further made tidy by computing the mean of all \*-std() and \*-mean() values for each subject and each activity. The yielded a 180x20 data frame.
+
+### Column Rename
+The data that resulted from the previous step was further tidied by updating the column names to reflect that these values are now averages.
+
+## Final Data Set
+The following details the final data set columns names and their description:
