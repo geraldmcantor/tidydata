@@ -6,6 +6,7 @@ This project contains the following files:
 
 * run_analysis.R - the R script that performs the steps necessary to create tidy data as per assignment instructions
 * CodeBook.md - the code book that describes the tidy data set
+* tidyDataResults.txt - the results of running the run_analysis() function of the run_analysis.R script against the raw data
 * README.md - this file
 
 ## Background
